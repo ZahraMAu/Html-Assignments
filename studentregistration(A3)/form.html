@@ -1,0 +1,133 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Registration Form</title>
+  </head>
+  <body>
+    <h1 align="center"><u>Student Registration Form</u></h1>
+    <form action="">
+      <table align="center">
+        <tr>
+          <td><label for="fname">First Name:</label></td>
+          <td>
+            <input
+              type="text"
+              name="fname"
+              id="fname"
+              placeholder="Enter your first name"
+            />
+          </td>
+        </tr>
+
+        <tr>
+          <td><label for="lname">Last Name:</label></td>
+          <td>
+            <input
+              type="text"
+              name="lname"
+              id="lname"
+              placeholder="Enter your last name"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="email">Email:</label></td>
+          <td>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="student@gmail.com"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="mobile">Mobile:</label></td>
+          <td>
+            <input
+              type="tel"
+              name="mobile"
+              id="mobile"
+              placeholder="only 10 digits are allowed"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="gender">Gender:</label></td>
+          <td>
+            <input type="radio" name="gender" id="male" />Male
+            <input type="radio" name="gender" id="female" />Female
+          </td>
+        </tr>
+        <tr>
+          <td><label for="date-of-birth">Date Of Birth:</label></td>
+          <td>
+            <input type="date" name="date-of-birth" id="date-of-birth" />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="address">Address:</label></td>
+          <td>
+            <textarea
+              rows="4"
+              cols="50"
+              name="comment"
+              form="usrform"
+            ></textarea>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="city">City:</label></td>
+          <td>
+            <input type="text" name="city" id="city" />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="areapin">Area PIN:</label></td>
+          <td><input type="text" name="areapin" id="areapin" /></td>
+        </tr>
+        <tr>
+          <td><label for="state">state:</label></td>
+          <td><input type="text" name="state" id="state" /></td>
+        </tr>
+        <tr>
+          <td><label for="qualification">Qualification:</label></td>
+          <td>
+            <select name="qualification" id="qualification">
+              <option value="mcs">Set Qualification</option>
+              <option value="mcs">Web developement</option>
+              <option value="mcs">wordpress development</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="Specialization:">Specialization</label></td>
+          <td>
+            <input type="checkbox" name="" id="" />Computer Science <br />
+            <input type="checkbox" name="" id="" />Information Technology
+            <br />
+            <input type="checkbox" name="" id="" />Computer Architecture
+            <br />
+            <input type="checkbox" name="" id="" />Tele Communication
+          </td>
+        </tr>
+        <tr>
+          <td><label for="password">Password: </label></td>
+          <td>
+            <input type="password" name="password" id="" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input type="button" value="Registered" />
+          </td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
